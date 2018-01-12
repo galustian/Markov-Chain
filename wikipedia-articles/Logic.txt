@@ -1,0 +1,204 @@
+Logic (from the Ancient Greek: λογική, translit. logikḗ), originally meaning "the word" or "what is spoken", but coming to mean "thought" or "reason", is generally held to consist of the systematic study of the form of valid inference. A valid inference is one where there is a specific relation of logical support between the assumptions of the inference and its conclusion. (In ordinary discourse, inferences may be signified by words like therefore, hence, ergo and so on.) There is no universal agreement as to the exact scope and subject matter of logic (see § Rival conceptions, below), but it has traditionally included the classification of arguments, the systematic exposition of the 'logical form' common to all valid arguments, the study of inference, including fallacies, and the study of semantics, including paradoxes. Historically, logic has been studied in philosophy (since ancient times) and mathematics (since the mid-19th century), and recently logic has been studied in computer science, linguistics, psychology, and other fields.   The concept of logical form is central to logic. The validity of an argument is determined by its logical form, not by its content. Traditional Aristotelian syllogistic logic and modern symbolic logic are examples of formal logic. However, agreement on what logic is has remained elusive, and although the field of universal logic has studied the common structure of logics, in 2007 Mossakowski et al. commented that "it is embarrassing that there is no widely acceptable formal definition of 'a logic'". Logic is generally considered formal when it analyzes and represents the form of any valid argument type. The form of an argument is displayed by representing its sentences in the formal grammar and symbolism of a logical language to make its content usable in formal inference. Simply put, formalising simply means translating English sentences into the language of logic. This is called showing the logical form of the argument. It is necessary because indicative sentences of ordinary language show a considerable variety of form and complexity that makes their use in inference impractical. It requires, first, ignoring those grammatical features irrelevant to logic (such as gender and declension, if the argument is in Latin), replacing conjunctions irrelevant to logic (such as "but") with logical conjunctions like "and" and replacing ambiguous, or alternative logical expressions ("any", "every", etc.) with expressions of a standard type (such as "all", or the universal quantifier ∀). Second, certain parts of the sentence must be replaced with schematic letters. Thus, for example, the expression "all Ps are Qs" shows the logical form common to the sentences "all men are mortals", "all cats are carnivores", "all Greeks are philosophers", and so on. The schema can further be condensed into the formula A(P,Q), where the letter A indicates the judgement 'all - are -'. The importance of form was recognised from ancient times. Aristotle uses variable letters to represent valid inferences in Prior Analytics, leading Jan Łukasiewicz to say that the introduction of variables was "one of Aristotle's greatest inventions". According to the followers of Aristotle (such as Ammonius), only the logical principles stated in schematic terms belong to logic, not those given in concrete terms. The concrete terms "man", "mortal", etc., are analogous to the substitution values of the schematic placeholders P, Q, R, which were called the "matter" (Greek hyle) of the inference. There is a big difference between the kinds of formulas seen in traditional term logic and the predicate calculus that is the fundamental advance of modern logic. The formula A(P,Q) (all Ps are Qs) of traditional logic corresponds to the more complex formula 
+
+
+
+∀
+x
+.
+(
+P
+(
+x
+)
+→
+Q
+(
+x
+)
+)
+
+
+{\displaystyle \forall x.(P(x)\rightarrow Q(x))}
+
+ in predicate logic, involving the logical connectives for universal quantification and implication rather than just the predicate letter A and using variable arguments 
+
+
+
+P
+(
+x
+)
+
+
+{\displaystyle P(x)}
+
+ where traditional logic uses just the term letter P. With the complexity comes power, and the advent of the predicate calculus inaugurated revolutionary growth of the subject. The validity of an argument depends upon the meaning or semantics of the sentences that make it up. Aristotle's Organon, especially On Interpretation, gives a cursory outline of semantics which the scholastic logicians, particularly in the thirteenth and fourteenth century, developed into a complex and sophisticated theory, called Supposition Theory. This showed how the truth of simple sentences, expressed schematically, depend on how the terms 'supposit' or stand for certain extra-linguistic items. For example, in part II of his Summa Logicae, William of Ockham presents a comprehensive account of the necessary and sufficient conditions for the truth of simple sentences, in order to show which arguments are valid and which are not. Thus "every A is B' is true if and only if there is something for which 'A' stands, and there is nothing for which 'A' stands, for which 'B' does not also stand."  Early modern logic defined semantics purely as a relation between ideas. Antoine Arnauld in the Port Royal Logic, says that 'after conceiving things by our ideas, we compare these ideas, and, finding that some belong together and some do not, we unite or separate them. This is called affirming or denying, and in general judging. Thus truth and falsity are no more than the agreement or disagreement of ideas. This suggests obvious difficulties, leading Locke to distinguish between 'real' truth, when our ideas have 'real existence' and 'imaginary' or 'verbal' truth, where ideas like harpies or centaurs exist only in the mind. This view (psychologism) was taken to the extreme in the nineteenth century, and is generally held by modern logicians to signify a low point in the decline of logic before the twentieth century. Modern semantics is in some ways closer to the medieval view, in rejecting such psychological truth-conditions. However, the introduction of quantification, needed to solve the problem of multiple generality, rendered impossible the kind of subject-predicate analysis that underlies medieval semantics. The main modern approach is model-theoretic semantics, based on Alfred Tarski's semantic theory of truth. The approach assumes that the meaning of the various parts of the propositions are given by the possible ways we can give a recursively specified group of interpretation functions from them to some predefined domain of discourse: an interpretation of first-order predicate logic is given by a mapping from terms to a universe of individuals, and a mapping from propositions to the truth values "true" and "false". Model-theoretic semantics is one of the fundamental concepts of model theory. Modern semantics also admits rival approaches, such as the proof-theoretic semantics that associates the meaning of propositions with the roles that they can play in inferences, an approach that ultimately derives from the work of Gerhard Gentzen on structural proof theory and is heavily influenced by Ludwig Wittgenstein's later philosophy, especially his aphorism "meaning is use". Inference is not to be confused with implication. An implication is a sentence of the form 'If p then q', and can be true or false. The Stoic logician Philo of Megara was the first to define the truth conditions of such an implication: false only when the antecedent p is true and the consequent q is false, in all other cases true. An inference, on the other hand, consists of two separately asserted propositions of the form 'p therefore q'. An inference is not true or false, but valid or invalid. However, there is a connection between implication and inference, as follows: if the implication 'if p then q' is true, the inference 'p therefore q' is valid. This was given an apparently paradoxical formulation by Philo, who said that the implication 'if it is day, it is night' is true only at night, so the inference 'it is day, therefore it is night' is valid in the night, but not in the day. The theory of inference (or 'consequences') was systematically developed in medieval times by logicians such as William of Ockham and Walter Burley. It is uniquely medieval, though it has its origins in Aristotle's Topics and Boethius' De Syllogismis hypotheticis. This is why many terms in logic are Latin. For example, the rule that licenses the move from the implication 'if p then q' plus the assertion of its antecedent p, to the assertion of the consequent q is known as modus ponens (or 'mode of positing'). Its Latin formulation is 'Posito antecedente ponitur consequens'. The Latin formulations of many other rules such as 'ex falso quodlibet' (anything follows from a falsehood), 'reductio ad absurdum' (disproof by showing the consequence is absurd) also date from this period. However, the theory of consequences, or of the so-called 'hypothetical syllogism' was never fully integrated into the theory of the 'categorical syllogism'. This was partly because of the resistance to reducing the categorical judgment 'Every S is P' to the so-called hypothetical judgment 'if anything is S, it is P'. The first was thought to imply 'some S is P', the second was not, and as late as 1911 in the Encyclopædia Britannica article on Logic, we find the Oxford logician T.H. Case arguing against Sigwart's and Brentano's modern analysis of the universal proposition. A formal system is an organization of terms used for the analysis of deduction. It consists of an alphabet, a language over the alphabet to construct sentences, and a rule for deriving sentences. Among the important properties that logical systems can have are: Some logical systems do not have all four properties. As an example, Kurt Gödel's incompleteness theorems show that sufficiently complex formal systems of arithmetic cannot be consistent and complete; however, first-order predicate logics not extended by specific axioms to be arithmetic formal systems with equality can be complete and consistent. As the study of argument is of clear importance to the reasons that we hold things to be true, logic is of essential importance to rationality. Here we have defined logic to be "the systematic study of the form of arguments"; the reasoning behind argument is of several sorts, but only some of these arguments fall under the aegis of logic proper. Deductive reasoning concerns the logical consequence of given premises and is the form of reasoning most closely connected to logic. On a narrow conception of logic (see below) logic concerns just deductive reasoning, although such a narrow conception controversially excludes most of what is called informal logic from the discipline. There are other forms of reasoning that are rational but that are generally not taken to be part of logic. These include inductive reasoning, which covers forms of inference that move from collections of particular judgements to universal judgements, and abductive reasoning, which is a form of inference that goes from observation to a hypothesis that accounts for the reliable data (observation) and seeks to explain relevant evidence. The American philosopher Charles Sanders Peirce (1839–1914) first introduced the term as "guessing". Peirce said that to abduce a hypothetical explanation 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ from an observed surprising circumstance 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ is to surmise that 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ may be true because then 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ would be a matter of course. Thus, to abduce 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ from 
+
+
+
+b
+
+
+{\displaystyle b}
+
+ involves determining that 
+
+
+
+a
+
+
+{\displaystyle a}
+
+ is sufficient (or nearly sufficient), but not necessary, for 
+
+
+
+b
+
+
+{\displaystyle b}
+
+. While inductive and abductive inference are not part of logic proper, the methodology of logic has been applied to them with some degree of success. For example, the notion of deductive validity (where an inference is deductively valid if and only if there is no possible situation in which all the premises are true but the conclusion false) exists in an analogy to the notion of inductive validity, or "strength", where an inference is inductively strong if and only if its premises give some degree of probability to its conclusion. Whereas the notion of deductive validity can be rigorously stated for systems of formal logic in terms of the well-understood notions of semantics, inductive validity requires us to define a reliable generalization of some set of observations. The task of providing this definition may be approached in various ways, some less formal than others; some of these definitions may use logical association rule induction, while others may use mathematical models of probability such as decision trees. Logic arose (see below) from a concern with correctness of argumentation. Modern logicians usually wish to ensure that logic studies just those arguments that arise from appropriately general forms of inference. For example, Thomas Hofweber writes in the Stanford Encyclopedia of Philosophy that logic "does not, however, cover good reasoning as a whole. That is the job of the theory of rationality. Rather it deals with inferences whose validity can be traced back to the formal features of the representations that are involved in that inference, be they linguistic, mental, or other representations." Logic has been defined[by whom?] as "the study of arguments correct in virtue of their form". This has not been the definition taken in this article, but the idea that logic treats special forms of argument, deductive argument, rather than argument in general, has a history in logic that dates back at least to logicism in mathematics (19th and 20th centuries) and the advent of the influence of mathematical logic on philosophy. A consequence of taking logic to treat special kinds of argument is that it leads to identification of special kinds of truth, the logical truths (with logic equivalently being the study of logical truth), and excludes many of the original objects of study of logic that are treated as informal logic. Robert Brandom has argued against the idea that logic is the study of a special kind of logical truth, arguing that instead one can talk of the logic of material inference (in the terminology of Wilfred Sellars), with logic making explicit the commitments that were originally implicit in informal inference.[page needed] In Europe, logic was first developed by Aristotle. Aristotelian logic became widely accepted in science and mathematics and remained in wide use in the West until the early 19th century. Aristotle's system of logic was responsible for the introduction of hypothetical syllogism, temporal modal logic, and inductive logic, as well as influential terms such as terms, predicables, syllogisms and propositions. In Europe during the later medieval period, major efforts were made to show that Aristotle's ideas were compatible with Christian faith. During the High Middle Ages, logic became a main focus of philosophers, who would engage in critical logical analyses of philosophical arguments, often using variations of the methodology of scholasticism. In 1323, William of Ockham's influential Summa Logicae was released. By the 18th century, the structured approach to arguments had degenerated and fallen out of favour, as depicted in Holberg's satirical play Erasmus Montanus. The Chinese logical philosopher Gongsun Long (c. 325–250 BCE) proposed the paradox "One and one cannot become two, since neither becomes two." In China, the tradition of scholarly investigation into logic, however, was repressed by the Qin dynasty following the legalist philosophy of Han Feizi. In India, innovations in the scholastic school, called Nyaya, continued from ancient times into the early 18th century with the Navya-Nyaya school. By the 16th century, it developed theories resembling modern logic, such as Gottlob Frege's "distinction between sense and reference of proper names" and his "definition of number", as well as the theory of "restrictive conditions for universals" anticipating some of the developments in modern set theory. Since 1824, Indian logic attracted the attention of many Western scholars, and has had an influence on important 19th-century logicians such as Charles Babbage, Augustus De Morgan, and George Boole. In the 20th century, Western philosophers like Stanislaw Schayer and Klaus Glashoff have explored Indian logic more extensively. The syllogistic logic developed by Aristotle predominated in the West until the mid-19th century, when interest in the foundations of mathematics stimulated the development of symbolic logic (now called mathematical logic). In 1854, George Boole published An Investigation of the Laws of Thought on Which are Founded the Mathematical Theories of Logic and Probabilities, introducing symbolic logic and the principles of what is now known as Boolean logic. In 1879, Gottlob Frege published Begriffsschrift, which inaugurated modern logic with the invention of quantifier notation. From 1910 to 1913, Alfred North Whitehead and Bertrand Russell published Principia Mathematica on the foundations of mathematics, attempting to derive mathematical truths from axioms and inference rules in symbolic logic. In 1931, Gödel raised serious problems with the foundationalist program and logic ceased to focus on such issues. The development of logic since Frege, Russell, and Wittgenstein had a profound influence on the practice of philosophy and the perceived nature of philosophical problems (see analytic philosophy) and philosophy of mathematics. Logic, especially sentential logic, is implemented in computer logic circuits and is fundamental to computer science. Logic is commonly taught by university philosophy departments, often as a compulsory discipline. The Organon was Aristotle's body of work on logic, with the Prior Analytics constituting the first explicit work in formal logic, introducing the syllogistic. The parts of syllogistic logic, also known by the name term logic, are the analysis of the judgements into propositions consisting of two terms that are related by one of a fixed number of relations, and the expression of inferences by means of syllogisms that consist of two propositions sharing a common term as premise, and a conclusion that is a proposition involving the two unrelated terms from the premises. Aristotle's work was regarded in classical times and from medieval times in Europe and the Middle East as the very picture of a fully worked out system. However, it was not alone: the Stoics proposed a system of propositional logic that was studied by medieval logicians. Also, the problem of multiple generality was recognized in medieval times. Nonetheless, problems with syllogistic logic were not seen as being in need of revolutionary solutions. Today, some academics claim that Aristotle's system is generally seen as having little more than historical value (though there is some current interest in extending term logics), regarded as made obsolete by the advent of propositional logic and the predicate calculus. Others use Aristotle in argumentation theory to help develop and critically question argumentation schemes that are used in artificial intelligence and legal arguments. I was upset. I had always believed logic was a universal weapon, and now I realized how its validity depended on the way it was employed. A propositional calculus or logic (also a sentential calculus) is a formal system in which formulae representing propositions can be formed by combining atomic propositions using logical connectives, and in which a system of formal proof rules establishes certain formulae as "theorems". An example of a theorem of propositional logic is 
+
+
+
+A
+→
+B
+→
+A
+
+
+{\displaystyle A\rightarrow B\rightarrow A}
+
+, which says that if A holds, then B implies A. Predicate logic is the generic term for symbolic formal systems such as first-order logic, second-order logic, many-sorted logic, and infinitary logic. It provides an account of quantifiers general enough to express a wide set of arguments occurring in natural language. For example, Bertrand Russell's famous barber paradox, "there is a man who shaves all and only men who do not shave themselves" can be formalised by the sentence 
+
+
+
+(
+∃
+x
+)
+(
+
+man
+
+(
+x
+)
+∧
+(
+∀
+y
+)
+(
+
+man
+
+(
+y
+)
+→
+(
+
+shaves
+
+(
+x
+,
+y
+)
+↔
+¬
+
+shaves
+
+(
+y
+,
+y
+)
+)
+)
+)
+
+
+{\displaystyle (\exists x)({\text{man}}(x)\wedge (\forall y)({\text{man}}(y)\rightarrow ({\text{shaves}}(x,y)\leftrightarrow \neg {\text{shaves}}(y,y))))}
+
+, using the non-logical predicate 
+
+
+
+
+man
+
+(
+x
+)
+
+
+{\displaystyle {\text{man}}(x)}
+
+ to indicate that x is a man, and the non-logical relation 
+
+
+
+
+shaves
+
+(
+x
+,
+y
+)
+
+
+{\displaystyle {\text{shaves}}(x,y)}
+
+ to indicate that x shaves y; all other symbols of the formulae are logical, expressing the universal and existential quantifiers, conjunction, implication, negation and biconditional. Whilst Aristotelian syllogistic logic specifies a small number of forms that the relevant part of the involved judgements may take, predicate logic allows sentences to be analysed into subject and argument in several additional ways—allowing predicate logic to solve the problem of multiple generality that had perplexed medieval logicians. The development of predicate logic is usually attributed to Gottlob Frege, who is also credited as one of the founders of analytical philosophy, but the formulation of predicate logic most often used today is the first-order logic presented in Principles of Mathematical Logic by David Hilbert and Wilhelm Ackermann in 1928. The analytical generality of predicate logic allowed the formalization of mathematics, drove the investigation of set theory, and allowed the development of Alfred Tarski's approach to model theory. It provides the foundation of modern mathematical logic. Frege's original system of predicate logic was second-order, rather than first-order. Second-order logic is most prominently defended (against the criticism of Willard Van Orman Quine and others) by George Boolos and Stewart Shapiro.[citation needed] In languages, modality deals with the phenomenon that sub-parts of a sentence may have their semantics modified by special verbs or modal particles. For example, "We go to the games" can be modified to give "We should go to the games", and "We can go to the games" and perhaps "We will go to the games". More abstractly, we might say that modality affects the circumstances in which we take an assertion to be satisfied. Confusing modality is known as the modal fallacy. Aristotle's logic is in large parts concerned with the theory of non-modalized logic. Although, there are passages in his work, such as the famous sea-battle argument in De Interpretatione § 9, that are now seen as anticipations of modal logic and its connection with potentiality and time, the earliest formal system of modal logic was developed by Avicenna, whom ultimately developed a theory of "temporally modalized" syllogistic. While the study of necessity and possibility remained important to philosophers, little logical innovation happened until the landmark investigations of Clarence Irving Lewis in 1918, who formulated a family of rival axiomatizations of the alethic modalities. His work unleashed a torrent of new work on the topic, expanding the kinds of modality treated to include deontic logic and epistemic logic. The seminal work of Arthur Prior applied the same formal language to treat temporal logic and paved the way for the marriage of the two subjects. Saul Kripke discovered (contemporaneously with rivals) his theory of frame semantics, which revolutionized the formal technology available to modal logicians and gave a new graph-theoretic way of looking at modality that has driven many applications in computational linguistics and computer science, such as dynamic logic. The motivation for the study of logic in ancient times was clear: it is so that one may learn to distinguish good arguments from bad arguments, and so become more effective in argument and oratory, and perhaps also to become a better person. Half of the works of Aristotle's Organon treat inference as it occurs in an informal setting, side by side with the development of the syllogistic, and in the Aristotelian school, these informal works on logic were seen as complementary to Aristotle's treatment of rhetoric. This ancient motivation is still alive, although it no longer takes centre stage in the picture of logic; typically dialectical logic forms the heart of a course in critical thinking, a compulsory course at many universities. Dialectic has been linked to logic since ancient times, but it has not been until recent decades that European and American logicians have attempted to provide mathematical foundations for logic and dialectic by formalising dialectical logic. Dialectical logic is also the name given to the special treatment of dialectic in Hegelian and Marxist thought. There have been pre-formal treatises on argument and dialectic, from authors such as Stephen Toulmin (The Uses of Argument), Nicholas Rescher (Dialectics), and van Eemeren and Grootendorst (Pragma-dialectics). Theories of defeasible reasoning can provide a foundation for the formalisation of dialectical logic and dialectic itself can be formalised as moves in a game, where an advocate for the truth of a proposition and an opponent argue. Such games can provide a formal game semantics for many logics. Argumentation theory is the study and research of informal logic, fallacies, and critical questions as they relate to every day and practical situations. Specific types of dialogue can be analyzed and questioned to reveal premises, conclusions, and fallacies. Argumentation theory is now applied in artificial intelligence and law. Mathematical logic comprises two distinct areas of research: the first is the application of the techniques of formal logic to mathematics and mathematical reasoning, and the second, in the other direction, the application of mathematical techniques to the representation and analysis of formal logic. The earliest use of mathematics and geometry in relation to logic and philosophy goes back to the ancient Greeks such as Euclid, Plato, and Aristotle. Many other ancient and medieval philosophers applied mathematical ideas and methods to their philosophical claims. One of the boldest attempts to apply logic to mathematics was the logicism pioneered by philosopher-logicians such as Gottlob Frege and Bertrand Russell. Mathematical theories were supposed to be logical tautologies, and the programme was to show this by means of a reduction of mathematics to logic. The various attempts to carry this out met with failure, from the crippling of Frege's project in his Grundgesetze by Russell's paradox, to the defeat of Hilbert's program by Gödel's incompleteness theorems. Both the statement of Hilbert's program and its refutation by Gödel depended upon their work establishing the second area of mathematical logic, the application of mathematics to logic in the form of proof theory. Despite the negative nature of the incompleteness theorems, Gödel's completeness theorem, a result in model theory and another application of mathematics to logic, can be understood as showing how close logicism came to being true: every rigorously defined mathematical theory can be exactly captured by a first-order logical theory; Frege's proof calculus is enough to describe the whole of mathematics, though not equivalent to it. If proof theory and model theory have been the foundation of mathematical logic, they have been but two of the four pillars of the subject. Set theory originated in the study of the infinite by Georg Cantor, and it has been the source of many of the most challenging and important issues in mathematical logic, from Cantor's theorem, through the status of the Axiom of Choice and the question of the independence of the continuum hypothesis, to the modern debate on large cardinal axioms. Recursion theory captures the idea of computation in logical and arithmetic terms; its most classical achievements are the undecidability of the Entscheidungsproblem by Alan Turing, and his presentation of the Church–Turing thesis. Today recursion theory is mostly concerned with the more refined problem of complexity classes—when is a problem efficiently solvable?—and the classification of degrees of unsolvability. Philosophical logic deals with formal descriptions of ordinary, non-specialist ("natural") language, that is strictly only about the arguments within philosophy's other branches. Most philosophers assume that the bulk of everyday reasoning can be captured in logic if a method or methods to translate ordinary language into that logic can be found. Philosophical logic is essentially a continuation of the traditional discipline called "logic" before the invention of mathematical logic. Philosophical logic has a much greater concern with the connection between natural language and logic. As a result, philosophical logicians have contributed a great deal to the development of non-standard logics (e.g. free logics, tense logics) as well as various extensions of classical logic (e.g. modal logics) and non-standard semantics for such logics (e.g. Kripke's supervaluationism in the semantics of logic). Logic and the philosophy of language are closely related. Philosophy of language has to do with the study of how our language engages and interacts with our thinking. Logic has an immediate impact on other areas of study. Studying logic and the relationship between logic and ordinary speech can help a person better structure his own arguments and critique the arguments of others. Many popular arguments are filled with errors because so many people are untrained in logic and unaware of how to formulate an argument correctly. Logic cut to the heart of computer science as it emerged as a discipline: Alan Turing's work on the Entscheidungsproblem followed from Kurt Gödel's work on the incompleteness theorems. The notion of the general purpose computer that came from this work was of fundamental importance to the designers of the computer machinery in the 1940s. In the 1950s and 1960s, researchers predicted that when human knowledge could be expressed using logic with mathematical notation, it would be possible to create a machine that reasons, or artificial intelligence. This was more difficult than expected because of the complexity of human reasoning. In logic programming, a program consists of a set of axioms and rules. Logic programming systems such as Prolog compute the consequences of the axioms and rules in order to answer a query. Today, logic is extensively applied in the fields of artificial intelligence and computer science, and these fields provide a rich source of problems in formal and informal logic. Argumentation theory is one good example of how logic is being applied to artificial intelligence. The ACM Computing Classification System in particular regards: Furthermore, computers can be used as tools for logicians. For example, in symbolic logic and mathematical logic, proofs by humans can be computer-assisted. Using automated theorem proving, the machines can find and check proofs, as well as work with proofs too lengthy to write out by hand. The logics discussed above are all "bivalent" or "two-valued"; that is, they are most naturally understood as dividing propositions into true and false propositions. Non-classical logics are those systems that reject various rules of Classical logic. Hegel developed his own dialectic logic that extended Kant's transcendental logic but also brought it back to ground by assuring us that "neither in heaven nor in earth, neither in the world of mind nor of nature, is there anywhere such an abstract 'either–or' as the understanding maintains. Whatever exists is concrete, with difference and opposition in itself". In 1910, Nicolai A. Vasiliev extended the law of excluded middle and the law of contradiction and proposed the law of excluded fourth and logic tolerant to contradiction. In the early 20th century Jan Łukasiewicz investigated the extension of the traditional true/false values to include a third value, "possible", so inventing ternary logic, the first multi-valued logic in the Western tradition. Logics such as fuzzy logic have since been devised with an infinite number of "degrees of truth", represented by a real number between 0 and 1. Intuitionistic logic was proposed by L.E.J. Brouwer as the correct logic for reasoning about mathematics, based upon his rejection of the law of the excluded middle as part of his intuitionism. Brouwer rejected formalization in mathematics, but his student Arend Heyting studied intuitionistic logic formally, as did Gerhard Gentzen. Intuitionistic logic is of great interest to computer scientists, as it is a constructive logic and can be applied for extracting verified programs from proofs. Modal logic is not truth conditional, and so it has often been proposed as a non-classical logic. However, modal logic is normally formalized with the principle of the excluded middle, and its relational semantics is bivalent, so this inclusion is disputable. What is the epistemological status of the laws of logic? What sort of argument is appropriate for criticizing purported principles of logic? In an influential paper entitled "Is Logic Empirical?" Hilary Putnam, building on a suggestion of W. V. Quine, argued that in general the facts of propositional logic have a similar epistemological status as facts about the physical universe, for example as the laws of mechanics or of general relativity, and in particular that what physicists have learned about quantum mechanics provides a compelling case for abandoning certain familiar principles of classical logic: if we want to be realists about the physical phenomena described by quantum theory, then we should abandon the principle of distributivity, substituting for classical logic the quantum logic proposed by Garrett Birkhoff and John von Neumann. Another paper of the same name by Michael Dummett argues that Putnam's desire for realism mandates the law of distributivity. Distributivity of logic is essential for the realist's understanding of how propositions are true of the world in just the same way as he has argued the principle of bivalence is. In this way, the question, "Is Logic Empirical?" can be seen to lead naturally into the fundamental controversy in metaphysics on realism versus anti-realism. The notion of implication formalized in classical logic does not comfortably translate into natural language by means of "if ... then ...", due to a number of problems called the paradoxes of material implication. The first class of paradoxes involves counterfactuals, such as If the moon is made of green cheese, then 2+2=5, which are puzzling because natural language does not support the principle of explosion. Eliminating this class of paradoxes was the reason for C. I. Lewis's formulation of strict implication, which eventually led to more radically revisionist logics such as relevance logic. The second class of paradoxes involves redundant premises, falsely suggesting that we know the succedent because of the antecedent: thus "if that man gets elected, granny will die" is materially true since granny is mortal, regardless of the man's election prospects. Such sentences violate the Gricean maxim of relevance, and can be modelled by logics that reject the principle of monotonicity of entailment, such as relevance logic. Hegel was deeply critical of any simplified notion of the Law of Non-Contradiction. It was based on Leibniz's idea that this law of logic also requires a sufficient ground to specify from what point of view (or time) one says that something cannot contradict itself. A building, for example, both moves and does not move; the ground for the first is our solar system and for the second the earth. In Hegelian dialectic, the law of non-contradiction, of identity, itself relies upon difference and so is not independently assertable. Closely related to questions arising from the paradoxes of implication comes the suggestion that logic ought to tolerate inconsistency. Relevance logic and paraconsistent logic are the most important approaches here, though the concerns are different: a key consequence of classical logic and some of its rivals, such as intuitionistic logic, is that they respect the principle of explosion, which means that the logic collapses if it is capable of deriving a contradiction. Graham Priest, the main proponent of dialetheism, has argued for paraconsistency on the grounds that there are in fact, true contradictions.[clarification needed] The philosophical vein of various kinds of skepticism contains many kinds of doubt and rejection of the various bases on which logic rests, such as the idea of logical form, correct inference, or meaning, typically leading to the conclusion that there are no logical truths. Observe that this is opposite to the usual views in philosophical skepticism, where logic directs skeptical enquiry to doubt received wisdoms, as in the work of Sextus Empiricus. Friedrich Nietzsche provides a strong example of the rejection of the usual basis of logic: his radical rejection of idealization led him to reject truth as a "... mobile army of metaphors, metonyms, and anthropomorphisms—in short ... metaphors which are worn out and without sensuous power; coins which have lost their pictures and now matter only as metal, no longer as coins." His rejection of truth did not lead him to reject the idea of either inference or logic completely, but rather suggested that "logic [came] into existence in man's head [out] of illogic, whose realm originally must have been immense. Innumerable beings who made inferences in a way different from ours perished". Thus there is the idea that logical inference has a use as a tool for human survival, but that its existence does not support the existence of truth, nor does it have a reality beyond the instrumental: "Logic, too, also rests on assumptions that do not correspond to anything in the real world". This position held by Nietzsche however, has come under extreme scrutiny for several reasons. Some philosophers, such as Jürgen Habermas, claim his position is self-refuting—and accuse Nietzsche of not even having a coherent perspective, let alone a theory of knowledge. Georg Lukács, in his book The Destruction of Reason, asserts that, "Were we to study Nietzsche's statements in this area from a logico-philosophical angle, we would be confronted by a dizzy chaos of the most lurid assertions, arbitrary and violently incompatible." Bertrand Russell described Nietzsche's irrational claims with "He is fond of expressing himself paradoxically and with a view to shocking conventional readers" in his book A History of Western Philosophy. 
