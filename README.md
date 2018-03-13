@@ -1,5 +1,5 @@
 # Markov-Chain
-Word-Suggestion with Markov-Chains using Wikipedias 500 most important pages as data train to the model.
+Word-Suggestion with Markov-Chains using Wikipedias 500 most important pages as data to train the model.
 
 Run in following order to download the data & create the transition-matricies:
 1. `python download-wiki-links.py`
